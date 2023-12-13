@@ -6,6 +6,10 @@
 <br><br>
 🇧🇷 - Para download das EFIs BASEs, é necessário você ser membro de qualquer categoria no canal do YouTube e conectar seu Discord à sua conta YouTube para acesso à sala `#efi-base`;
 
+![youtube_connection](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-2NDGEN-SANDY-BRYDGE-PUBLIC/assets/23700365/87cda8fc-9134-4aca-aa22-5bb95d5d0776)
+<br>
+![efi-base-channel](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-2NDGEN-SANDY-BRYDGE-PUBLIC/assets/23700365/3368e44d-c735-4efa-8065-86c17cb30b1a)
+
 # Basic Info
 
 Note|Description
