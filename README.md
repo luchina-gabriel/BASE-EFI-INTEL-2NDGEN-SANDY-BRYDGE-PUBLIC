@@ -27,7 +27,7 @@ Note 2|Most Sandy bridge boards do not support UEFI.
 
 - Opencore version: 1.0.8
 - Release date (OC/Kexts): 27/09/2026
-- Last Update Repository: 27/09/2026
+- Last Update Repository: 19/11/2026
 
 # Basic Steps
 
@@ -230,6 +230,19 @@ Macmini5,3|Quad Core NUC, iGPU: HD 3000.
 		- When Sandy Bridge paired with 7 series motherboard(ie. B75, Q75, Z75, H77, Q77, Z77).
 		- This property is still required with or without SSDT-IMEI.
 		- This is not needed if you have a 6 series motherboard(ie. H61, B65, Q65, P67, H67, Q67, Z68).
+
+# Special notes - For NVIDIA GPU
+
+boot-args
+- `nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -amfipassbeta`
+
+csr-active-config
+- `03080000`
+- `430A0000`
+
+Other adjustments
+- Kernel > Block > "Allow NullMoth Nvidia Driver" > Enabled
+- WhateverGreen removed or disabled
 
 ### GPU-Specific `boot-args`
 Parameter|Description
